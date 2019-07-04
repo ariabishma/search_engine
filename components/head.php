@@ -7,9 +7,17 @@
 <body>
 
 <!-- script header disini -->
-<div class="navbar navbar-expand navbar-light bg-light">
+<nav class="navbar navbar-light bg-light">
 	<div class="container">
-		<a class="navbar-brand ">Search Engine </a>
-		<a class="navbar-brand ml-auto"><small class="bg-warning">(<strong>header sementara </strong>) </a>
-	</div>
-</div>
+	<a class="navbar-brand">wahengine</a>
+
+    <div class="input-group mr-auto" style="width: 40%;">
+      
+      <input type="text" class="form-control" placeholder="Cari..." aria-label="Username" aria-describedby="basic-addon1">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">#</span>
+      </div>
+    </div>
+
+  </div>
+</nav>
