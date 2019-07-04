@@ -25,7 +25,7 @@
 <!-- script header disini -->
 <nav class="navbar navbar-light bg-light">
 	<div class="container">
-	<a class="navbar-brand">wahengine</a>
+	<a class="navbar-brand">WahEngine</a>
  </nav>
 
 

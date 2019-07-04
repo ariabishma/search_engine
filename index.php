@@ -13,7 +13,7 @@
 	
 	<img src="https://png2.kisspng.com/sh/2311d700e13bde199384fddcb490424c/L0KzQYq3VcE3N6J7epH0aYP2gLBuTfJtd5gyj9drc3n3dX75hgNxd594gehuLYfocn7rhgNqb58yi9dqcnPrPbb1hBlvbV50RddAcnAwgrb6kB92epRqi58AY3TndYjqg8A2PpM4SZCEOUO3RYeAVME2PWk1TKgBNkizQoO5TwBvbz==/kisspng-blog-website-responsive-web-design-search-engine-o-euro-ressources-5cdde7cc056b31.9934567415580466680222.png" class="img-fluid rounded mt-4" alt="Responsive image">
 	
-		<form action="detail.php" method="GET">
+		<form action="" method="">
 		
 			<div  class="form-group">
 			
