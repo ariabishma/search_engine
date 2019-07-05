@@ -43,7 +43,7 @@ if (strlen($accessKey) == 32) {
  ?>
 
 <div class="row">
-	<div class="col-md-6 ml-130">
+	<div class="col-md-6 ml-130 mx-20">
 	
 			<form action="" method="">
 		
@@ -69,7 +69,7 @@ if (strlen($accessKey) == 32) {
 			<?php for ($i=1;$i <= 6 ; $i++): ?>
 			
 			<div class="row mb-3">
-				<div class="card" style="width: 100%;">
+				<div class="card mx-20" style="width: 100%;">
 					<div class="card-body">
 						<h5 class="m-0"><strong>Facebook - Login atau mendaftar</strong></h5>
 						<p class="m-0 text-primary">https://facebook.com</p>

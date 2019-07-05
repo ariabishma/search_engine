@@ -9,3 +9,10 @@
 .ml-130 {
 	margin-left:130px;
 }
+
+@media (max-width: 576px) {
+	.mx-20 {
+	margin-left:20px;
+	margin-right:20px;
+	}
+}
