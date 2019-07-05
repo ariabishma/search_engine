@@ -104,7 +104,7 @@ if (strlen($accessKey) == 32) {
 		</div>
 
 		<div class="col-md-5">
-			<div class="card">
+			<div class="card mb-3">
 				<div class="card-body">
 					<img width="100%" src="https://timedotcom.files.wordpress.com/2016/09/googles-18th-birthday-5661535679545344-hp2x.gif">
 					<h5 class="m-0 text-center"><strong>[iklan] Google Anniversary</strong></h5>
