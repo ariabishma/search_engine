@@ -25,12 +25,18 @@
 <!-- script header disini -->
 <nav class="navbar navbar-light bg-light">
 	<div class="container">
+	<a class="navbar-brand">wahengine</a>
 
-	<a class="navbar-brand">WahEngine</a>
+    <div class="input-group mr-auto" style="width: 40%;">
+      
+      <input type="text" class="form-control" placeholder="Cari..." aria-label="Username" aria-describedby="basic-addon1">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">#</span>
+      </div>
+    </div>
 
-	</div>	
-
- </nav>
+  </div>
+</nav>
 
 
 </head>
