@@ -26,7 +26,13 @@
 		</form>
 		
 		<div class="text-center text-14">Google talaga ditawarkan di : <a href="https://en.m.wikipedia.org/wiki/Indonesia"> Indonesian </a> </div>
-
+    	
+		<div class="text-center mt-3">
+			<a href="login.php">Sign In</a> -
+			<span>
+				<a href="register.php">Register</a>
+			</span>
+		</div>
 	</div>
 </div>
 
