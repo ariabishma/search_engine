@@ -10,8 +10,8 @@
 
      <!-- Font Awesome CSS -->
 	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	 <!-- Style CSS -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+	 	<!-- Style CSS -->
+    	<link rel="stylesheet" href="/assets/css/style.css">
 
 	<style>
 		@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
@@ -25,9 +25,15 @@
 <!-- script header disini -->
 <nav class="navbar navbar-light bg-light">
 	<div class="container">
+
 	<a class="navbar-brand">WahEngine</a>
+
+	</div>	
+
  </nav>
 
 
 </head>
 <body>
+
+	
