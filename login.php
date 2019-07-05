@@ -8,7 +8,6 @@
 			<div class="card">
 				<div class="card-header bg-transparent ">
 					<h4 class="m-0">Sign In</h4>
-					
 				</div>
 				<div class="card-body">
 					<form>
