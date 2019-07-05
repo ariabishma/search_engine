@@ -28,9 +28,9 @@
 							 <label>Retype Password</label>
 								 <input type="text" class="form-control" placeholder="retype Password..">
 						 </div>
-						<button class="btn btn-success">Register</button>
+						<button class="btn btn-success rounded-20">Register</button>
 					</form>
-					<a href="" class="float-right">I have a account?</a>
+					<a href="login.php" class="float-right">I have a account?</a>
 				</div>
 			</div>
 		</div>

@@ -19,7 +19,7 @@
 							 <label>Password</label>
 								 <input type="password" class="form-control" placeholder="Password..">
 						 </div>
-						<button class="btn btn-success">Sign in</button>
+						<button class="btn btn-success rounded-20">Sign in</button>
 						
 					</form>
 					
