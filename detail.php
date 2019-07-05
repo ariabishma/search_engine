@@ -42,13 +42,34 @@ if (strlen($accessKey) == 32) {
 
  ?>
 
+<div class="row">
+	<div class="col-md-6 ml-130 mx-20">
+	
+			<form action="" method="">
+		
+				<div  class="form-group">
+			
+				<input type="text" class="form-control mt-3" placeholder="Cari..">
+				
+			</div>
+			
+			<button type="submit" class="btn btn-success float-right mt-54">Cari</button>
+
+		</form>
+	
+	</div>
+</div>
+
+
+
 <div class="container mt-3">
 	<div class="row">
 		<div class="col-md-7">
+		
 			<?php for ($i=1;$i <= 6 ; $i++): ?>
 			
 			<div class="row mb-3">
-				<div class="card" style="width: 100%;">
+				<div class="card mx-20" style="width: 100%;">
 					<div class="card-body">
 						<h5 class="m-0"><strong>Facebook - Login atau mendaftar</strong></h5>
 						<p class="m-0 text-primary">https://facebook.com</p>
@@ -59,10 +80,31 @@ if (strlen($accessKey) == 32) {
 			</div>
 			
 			<?php endfor; ?>
+			
+			<nav aria-label="...">
+	 			<ul class="pagination justify-content-center">
+					 <li class="page-item disabled">
+						 <span class="page-link">Previous</span>
+	 				</li>
+    				 <li class="page-item">
+							<a class="page-link" href="#">1</a>
+					</li>
+					<li class="page-item active" aria-current="page">
+							<span class="page-link"> 2 <span class="sr-only">(current)</span> </span>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">3</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">Next</a>
+					</li>
+		 		</ul>
+			</nav>
+
 		</div>
 
 		<div class="col-md-5">
-			<div class="card">
+			<div class="card mb-3">
 				<div class="card-body">
 					<img width="100%" src="https://timedotcom.files.wordpress.com/2016/09/googles-18th-birthday-5661535679545344-hp2x.gif">
 					<h5 class="m-0 text-center"><strong>[iklan] Google Anniversary</strong></h5>
@@ -74,6 +116,8 @@ if (strlen($accessKey) == 32) {
 		</div>
 	</div>
 </div>
+
+
 
 
 <!-- akhir konten -->

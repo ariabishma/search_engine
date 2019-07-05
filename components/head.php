@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Google Talaga Version - Search</title>
+	<title>WahEngine</title>
 	<!-- Required meta tags --> 
 	 <meta charset="utf-8">
 	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
@@ -25,8 +25,11 @@
 <!-- script header disini -->
 <nav class="navbar navbar-light bg-light">
 	<div class="container">
-		<a class="navbar-brand">wahengine</a>
+
+	<a class="navbar-brand">WahEngine</a>
+
 	</div>	
+
  </nav>
 
 

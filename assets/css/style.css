@@ -10,3 +10,42 @@ body{
 .text-14 {
 	font-size:14px;
 }
+
+.ml-130 {
+	margin-left:130px;
+}
+
+.img-jumbotron {
+	background-image:url("https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+	background-size:cover;
+	
+}
+
+.radius-none {
+	border-radius:0px!important;
+}
+
+.rounded-20  {
+	border-radius:20px!important;
+	width:100%;
+	margin-bottom:15px;
+}
+
+.text-border {
+	border-bottom:1px solid black;
+}
+
+.mint-top {
+	margin-top:-40px;
+}
+
+@media (max-width: 576px) {
+	.mx-20 {
+	margin-left:20px;
+	margin-right:20px;
+	}
+	
+	.mint-top {
+		margin-top:-30px;
+	}
+}
