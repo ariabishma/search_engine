@@ -1,13 +1,21 @@
 
 # ---------------------------
 # SoftTech Indexing Engine
-# ---------------------------
+# WHY SOFTTECH ? 
+# \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+# Search OVer the inTernet TECHnology
+# |		  |			|		|
+# V 	  V         V       V
+# S------OV---------T------TECH------
 #
-# a simple indexing engine for grabbing data over the internet
-# made by m.aria bishma fauzan
+# a simple engine for crawling data over the internet
+# made by boring programmers for boring user
 #
 # @Author m.aria bishma fauzan
+# 		  Ravialdo
+#
 # Under MIT License
+
 
 import os
 import json
@@ -25,8 +33,7 @@ result = json.dumps(cr.result())
 
 
 
-
-
 # ------------------------------
-# Just For Learning Purpose
+# (Just For Learning Purpose)
+# 	  !!!Just For Fun!!!
 # ------------------------------
