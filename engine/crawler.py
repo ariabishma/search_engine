@@ -22,7 +22,7 @@ import json
 
 from Core import crawl 
 
-starter = ['handphone','komputer']
+starter = ['handphone','komputer','laptop']
 
 
 index  = crawl.Crawler(starter,'bukalapak')
