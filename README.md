@@ -7,8 +7,11 @@ WahEngine is a product search engine that can comparing the prices of products f
 # Technology Behind WahEngine
   - Softech Indexing Engine (Search OVer the inTernet Technology)
   - Python
+  - BeautifulSoup4
+  - Requests Module
   - PHP
-  - Bootstrap
+  - Bootstrap4
+  - Font Awesome
   - HTML5 - CSS3
 
 # Authors
