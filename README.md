@@ -11,7 +11,7 @@ WahEngine is a product search engine that can comparing the prices of products f
   - Bootstrap
   - HTML5 - CSS3
 
-# The Authors
+# Authors
   - Mochammad aria bishma fauzan
   - Ravialdo Imanda Putra
 
