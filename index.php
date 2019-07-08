@@ -1,41 +1,50 @@
 <?php include 'components/head.php' ?>
 
 <!-- Tulis Konten Disini ! -->
+<div class="container-fluid">
+<div class="row">
 
-<style>
-
-
-
-</style>
-<div class="container">
-<div class="row justify-content-center">
-	<div class="col-md-4 mx-5">
-	
-	<img src="https://png2.kisspng.com/sh/2311d700e13bde199384fddcb490424c/L0KzQYq3VcE3N6J7epH0aYP2gLBuTfJtd5gyj9drc3n3dX75hgNxd594gehuLYfocn7rhgNqb58yi9dqcnPrPbb1hBlvbV50RddAcnAwgrb6kB92epRqi58AY3TndYjqg8A2PpM4SZCEOUO3RYeAVME2PWk1TKgBNkizQoO5TwBvbz==/kisspng-blog-website-responsive-web-design-search-engine-o-euro-ressources-5cdde7cc056b31.9934567415580466680222.png" class="img-fluid rounded mt-4" alt="Responsive image">
-	
-		<form action="" method="">
-			<div  class="form-group">			
-				<input type="text" class="form-control mt-5" placeholder="Cari..">
-			</div>
-			<!-- <button type="submit" class="btn btn-success float-right mt-54">Cari</button> -->
-		</form>
-		
-		<div class="text-center text-14">WahEngine ditawarkan di : <a href="https://en.m.wikipedia.org/wiki/Indonesia"> Indonesia </a> </div>
-    	
-		<div class="text-center mt-3">
-			<a href="login.php">Sign In</a> -
-			<span>
-				<a href="register.php">Register</a>
-			</span>
-		</div>
+	<div class="col-md-3 col-1 bg-primary head-landing">
+			
 	</div>
+	<div class="col-md-9 col-11 jumbotron head-landing">
+	     <div class="text-sub">Berbelanja ini menyenangkan</div>
+		 <div class="text-infor">JELAJAHI PRODUK TERBAIK KAMI</div>
+		 <p class="text-par"> Sekarang ingin berbelanja sangat mudah, dengan handphone semua macam produk dalam genggaman anda. </p>
+		 <a href="#" class="btn btn-primary  ml-pas btn-lg shadow text-white" role="button"><i class="fa fa-shopping-bag"></i> JELAJAHI SEKARANG</a>
+	</div>
+	
 </div>
 </div>
-
-
-
+	
+		<img src="https://colorlib.com/preview/theme/aroma/img/home/hero-banner.png" class="img-fluid  img-landing shadow">
+	
 <!-- akhir konten -->
 
+<!-- list item product -->
+
+<div class="container">
+
+	<div class="h1 start-text">
+	Barang <span class="border-bottom border-primary">Populer</span>
+	</div>
+	
+	<div class="row justify-content-center mt-5 mx-5 start-img bg-white">
+	
+		<?php  for($i=1;$i<=4;$i++): ?>
+		<div class="col-md-6 text-center">
+			<img src="https://colorlib.com/preview/theme/aroma/img/product/product5.png" class="img-fluid">
+			<div class="text-muted"> <i class="fa fa-tags"></i> Accessories</div>
+			<div class="font-weight-bold text-title"> Tas </div>
+			 <a href="#" class="btn btn-primary btn-buy btn-lg font-weight-bold mb-5 shadow" role="button"> <i class="fa fa-cart-arrow-down"></i> Rp.50.000.00 </a>
+	</div>
+	<?php endfor; ?>
+	
+</div>
+
+<!-- end liat item product -->
+
+<?php $footer = "footer"; ?>
 
 <?php include 'components/foot.php' ?>
 
