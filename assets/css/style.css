@@ -39,6 +39,104 @@ body{
 	margin-top:-40px;
 }
 
+.border-0 {
+	border-width:0px;
+}
+
+.head-landing {
+	height:500px;
+}
+
+.img-landing {
+   margin-top:-460px!important;
+	width:300px;
+	margin-left:150px;
+	position:absolute;
+	z-index:1;
+}
+
+.text-sub {
+	font-size:30px;
+	margin-left:200px;
+	margin-top:50px;
+}
+
+.text-infor {
+	font-size:37px;
+	font-weight:bold;
+	margin-left:200px;
+}
+
+.text-par {
+	font-size:20px;
+	margin-left:200px;
+}
+
+.ml-pas {
+	margin-left:200px;
+	border-radius:50px;
+}
+
+.text-title {
+	font-size:25px;
+}
+
+.btn-buy {
+	border-radius:50px;
+}
+
+.title-foot {
+		font-size:18px;
+		font-weight:bold;
+		
+}
+
+.footer {
+	position:absolute;
+	margin-left:-145px;
+	
+}
+
+quick-link {
+ 	text-decoration:none;
+}
+
+.user-name {
+	margin-left:80px;
+	margin-top:10px;
+	position:absolute;
+}
+
+.btn-circle {
+	border-radius:50px;
+	margin-bottom:80px;
+}
+
+.brdr-bttm {
+	border-bottom:1px solid gray!important;
+	border-radius:0;
+	border-color:black;
+}
+
+textarea:focus, textarea.form-control:focus, input.form-control:focus, input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=number]:focus, [type=text].form-control:focus, [type=password].form-control:focus, [type=email].form-control:focus, [type=tel].form-control:focus, [contenteditable].form-control:focus { box-shadow: inset 0 -1px 0 #ddd; }
+
+a {
+text-decoration:none!important;
+}
+
+.bg-image {
+	background-image:url("https://images.pexels.com/photos/1345082/pexels-photo-1345082.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+	background-size:cover;
+	height:200px;
+}
+
+.img-profile {
+	margin-left:-230px;
+	margin-top:160px;
+	position:absolute;
+	z-index:1;
+}
+
 @media (max-width: 576px) {
 	.mx-20 {
 	margin-left:20px;
@@ -48,4 +146,53 @@ body{
 	.mint-top {
 		margin-top:-30px;
 	}
+	
+	.img-landing {
+		margin-top:-20px!important;
+		margin-left:0!important;
+		width:100%;
+	}
+	
+	.text-sub {
+		margin-left:0;
+	}
+
+	.text-infor {
+		font-size:37px;
+		font-weight:bold;
+		margin-left:0;
+	}
+
+	.text-par {
+		font-size:20px;
+		margin-left:0;
+	}
+
+	.ml-pas {
+		margin-left:35px;
+		border-radius:50px;
+	}
+	
+	.start-text {
+		margin-top:35rem;
+	}
+	
+	.start-img {
+		margin-top:7rem!important;
+	}
+	
+	.footer {
+		position:absolute;
+		margin-left:-15px;
+	}
+	
+	.product {
+		margin-left:20px;
+	}
+	
+	.img-profile {
+		margin:0;
+		margin-top:50px;
+	}
+	
 }

@@ -2,109 +2,74 @@
 
 <!-- Tulis Konten Disini ! -->
 
-<?php 
+<div class="container-fluid jumbotron">
 
-$accessKey = 'enter key here';
-$endpoint = 'https://api.cognitive.microsoft.com/bing/v7.0/search';
-$term = 'Microsoft Cognitive Services';
-
-function BingWebSearch ($url, $key, $query) {
-    $headers = "Ocp-Apim-Subscription-Key: $key\r\n";
-    $options = array ('http' => array (
-                          'header' => $headers,
-                           'method' => 'GET'));
-    $context = stream_context_create($options);
-    $result = file_get_contents($url . "?q=" . urlencode($query), false, $context);
-    $headers = array();
-    foreach ($http_response_header as $k => $v) {
-        $h = explode(":", $v, 2);
-        if (isset($h[1]))
-            if (preg_match("/^BingAPIs-/", $h[0]) || preg_match("/^X-MSEdge-/", $h[0]))
-                $headers[trim($h[0])] = trim($h[1]);
-    }
-    return array($headers, $result);
-}
-
-if (strlen($accessKey) == 32) {
-    print "Searching the Web for: " . $term . "\n";
-    list($headers, $json) = BingWebSearch($endpoint, $accessKey, $term);
-    print "\nRelevant Headers:\n\n";
-    foreach ($headers as $k => $v) {
-        print $k . ": " . $v . "\n";
-    }
-    print "\nJSON Response:\n\n";
-    echo json_encode(json_decode($json), JSON_PRETTY_PRINT);
-
-} else {
-    // print("Invalid Bing Search API subscription key!\n");
-    // print("Please paste yours into the source code.\n");
-}
-
- ?>
-
-
-
-
-<div class="container mt-3">
-	<div class="row">
-		<div class="col-md-7">
-		
-			<?php for ($i=1;$i <= 6 ; $i++): ?>
-			
-			<div class="row mb-3">
-				<div class="card mx-20" style="width: 100%;">
-					<div class="card-body">
-						<h5 class="m-0"><strong>Facebook - Login atau mendaftar</strong></h5>
-						<p class="m-0 text-primary">https://facebook.com</p>
-						<p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dol</p>
-					</div>
+<div class="row justify-content-center">
+	<div class="col-md-4 text-center">
+			<div class="font-weight-bold h1">
+						Detail Produk
+						<div class="text-muted h2">
+								Nama Produk : Tas
+						</div>
 				</div>
-			</div>
-			
-			<?php endfor; ?>
-			
-			<nav aria-label="...">
-	 			<ul class="pagination justify-content-center">
-					 <li class="page-item disabled">
-						 <span class="page-link">Previous</span>
-	 				</li>
-    				 <li class="page-item">
-							<a class="page-link" href="#">1</a>
-					</li>
-					<li class="page-item active" aria-current="page">
-							<span class="page-link"> 2 <span class="sr-only">(current)</span> </span>
-					</li>
-					<li class="page-item">
-						<a class="page-link" href="#">3</a>
-					</li>
-					<li class="page-item">
-						<a class="page-link" href="#">Next</a>
-					</li>
-		 		</ul>
-			</nav>
+	</div>
+</div>
 
+</div>
+
+<div class="container">
+	<div class="row justify-content-center">
+	 	<div class="col-md-9">
+			<img src="https://colorlib.com/preview/theme/aroma/img/product/product5.png" class="img-fluid w-100" alt="product.jpg">
 		</div>
+	</div>
+</div>
 
-		<div class="col-md-5">
-			<div class="card mb-3">
-				<div class="card-body">
-					<img width="100%" src="https://timedotcom.files.wordpress.com/2016/09/googles-18th-birthday-5661535679545344-hp2x.gif">
-					<h5 class="m-0 text-center"><strong>[iklan] Google Anniversary</strong></h5>
-					<p class="m-0 text-primary text-center ">https://google.com</p>
-					<p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dol</p>
-				</div>
+<div class="container">
+	<h2 class="font-weight-bold mt-5"> Penjual : Bambang </h2>
+	<div class="h2 text-primary font-weight-bold"><i class="fa fa-shopping-cart"></i> Rp.50.000.00</div>
+	<a href="#" class="btn btn-primary btn-buy btn-lg mb-5   text-white" role="button"> <i class="fa fa-arrow-down"></i> Beli Sekarang </a>
+	<div class="card mb-5">
+		<div class="card-header">
+			<div  class="btn bg-white btn-lg" style="border-radius:50px;"><i class="fa fa-comment"></i> Komentar</div>
+		</div>
+		<div class="card-body">
+			<div class="border-bottom mb-2">
+				<div class="font-weight-bold user-name">Mamang</div>
+				<img src="https://colorlib.com/preview/theme/aroma/img/product/review-1.png" class="rounded-circle" alt="user.jpg">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				</p>
 			</div>
+			<div class="border-bottom mb-2">
+				<div class="font-weight-bold user-name">Bamz</div>
+				<img src="https://colorlib.com/preview/theme/aroma/img/product/review-2.png" class="rounded-circle" alt="user.jpg">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				</p>
+			</div>
+			<h3><i class="fa fa-comment"></i> Komentar</h3>
+			<form>
+				<div class="form-group">
+						<input type="text" class="form-control" placeholder="Nama Lengkap">
+				</div>
+				<div class="form-group">
+						<input type="text" class="form-control" placeholder="Alamat Email">
+				</div>
+				<div class="form-group">
+						<input type="text" class="form-control" placeholder="Masukan Subjek">
+				</div>
+				<div class="form-group">
+						<textarea rows="4" class="form-control" placeholder="Masukan Komentar"></textarea>
+				</div>
+				<button class="btn btn-primary btn-lg float-right" style="border-radius:50px;"><i class="fa fa-send"></i> Kirim</button>
+			</form>
 		</div>
 	</div>
 </div>
 
 
-
-
 <!-- akhir konten -->
-
 
 <?php include 'components/foot.php' ?>
 
