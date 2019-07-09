@@ -29,13 +29,14 @@
  		<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		 	<i class="fa fa-align-justify text-primary"></i>
 		 </button>
- 		 <div class="collapse navbar-collapse" id="navbarNav">
-			 <ul class="navbar-nav">
+ 		 <div class="collapse navbar-collapse " id="navbarNav">
+			 <ul class="navbar-nav ml-auto">
+				 </li> <li class="nav-item"> <a class="nav-link" href="register.php"><i class="fa fa-clipboard"></i> Register</a></li>
  				<li class="nav-item active">
  					<a class="nav-link" href="/"><i class="fa fa-home"></i> Home <span class="sr-only">(current)</span></a>
-				 </li> <li class="nav-item"> <a class="nav-link" href="login.php"><i class="fa fa-sign-in"></i> Sign In</a> 
-				 </li> <li class="nav-item"> <a class="nav-link" href="register.php"><i class="fa fa-clipboard"></i> Register</a>
- 				 </li> <li class="nav-item"> <a class="nav-link" href="#">
+				 </li> 
+				 <li class="nav-item"> <a class="nav-link" href="login.php"><i class="fa fa-sign-in"></i> Sign In</a>				 </li>
+ 				 <!--  <li class="nav-item"> <a class="nav-link" href="#">
 				<form action="pencarian.php" method="">
 						<div class="input-group mb-3">
 							 <input type="text" class="form-control border-0 brdr-bttm" placeholder="Cari ..">
@@ -45,7 +46,7 @@
 						 </div> 
 				</form>
 				</a>
-			 </li>
+			 </li> -->
 		 </ul>
 	 </div>
 	</div>
