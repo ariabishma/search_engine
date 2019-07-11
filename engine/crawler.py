@@ -30,6 +30,11 @@ from bs4 import BeautifulSoup as bs
 from datetime import datetime
 
 
+
+
+
+
+
 starter = ['handphone','komputer','laptop','asus zenfone','xiaomi','macbook pro','macbook late','laptop asus','laptop acer','laptop zyrex','oppo','machine learning','samsung']
 
 
@@ -45,6 +50,7 @@ for idx,c in enumerate(starter):
 	res = blapak.Extract(soup)
 
 	date = datetime.now()
+
 
 	with open('result/BL-'+c+'-'+str(date)+'.json','w+') as json_file:
 		json.dump(res,json_file)
