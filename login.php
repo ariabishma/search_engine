@@ -6,12 +6,12 @@
 
 <div class="row justify-content-center">
 	<div class="col-md-4 text-center">
-			<div class="font-weight-bold h1">
-						Masuk
-						<div class="text-muted h2">
-								
-						</div>
-				</div>
+		<div class="font-weight-bold h1">
+			Masuk
+			<div class="text-muted h2">
+					
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -32,23 +32,23 @@
 <div class="container mb-5">
 	<div class="row justify-content-center">
 		<div class="col-md-11 bg-white rounded-bottom text-center text-dark shadow">
-				<h2 class="font-weight-bold mt-4">Silahkan Masuk</h2>
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-md-5 mb-4">
-							<form>
-								<div class="form-group">
-						 			<input type="text" class="form-control border-0 brdr-bttm" placeholder="Username">
-							    </div>
-								<div class="form-group">
-									 <input type="text" class="form-control border-0 brdr-bttm" placeholder="Password">
-								</div>
-								<button class="btn btn-primary rounded-20"><i class="fa fa-sign-in"></i> Masuk</button>
-							</form>
-							<a class="text-muted">Lupa Password?</a>
-						</div>
-					</div>	
-				</div>
+			<h2 class="font-weight-bold mt-4">Silahkan Masuk</h2>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-5 mb-4">
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control border-0 brdr-bttm" placeholder="Username">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control border-0 brdr-bttm" placeholder="Password">
+							</div>
+							<button class="btn btn-primary rounded-20"><i class="fa fa-sign-in"></i> Masuk</button>
+						</form>
+						<a class="text-muted">Lupa Password?</a>
+					</div>
+				</div>	
+			</div>
 		</div>
 	</div>
 </div>

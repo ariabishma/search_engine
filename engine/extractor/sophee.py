@@ -1,7 +1,7 @@
-class Bukalapak(object):
+class Sophee(object):
 	"""docstring for ClassName"""
 	def __init__(self, arg):
-		self.baseUrl = "https://www.bukalapak.com/products?&search[keywords]="+arg
+		self.baseUrl = "https://shopee.co.id/search?keyword="+arg
 		self.result = {
 			self.baseUrl : []
 		}
