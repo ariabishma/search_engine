@@ -38,8 +38,8 @@ class Bukalapak(object):
 
 			print(res["title"])
 
-			sql = "INSERT INTO barang (judul,harga,media,vendor,keyword) VALUES (%s, %s, %s, %s, %s)"
-			val = (res["title"],res["price"],res["media"],"bukalapak",self.keyword)
+			sql = "INSERT INTO barang (judul,harga,media,vendor,keyword,url) VALUES (%s, %s, %s, %s, %s, %s)"
+			val = (res["title"],res["price"],res["media"],"bukalapak",self.keyword,res["original_url"])
 
 
 

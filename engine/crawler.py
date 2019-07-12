@@ -35,7 +35,10 @@ from datetime import datetime
 
 
 
-starter = ['handphone','komputer','laptop','asus zenfone','xiaomi','macbook pro','macbook late','laptop asus','laptop acer','laptop zyrex','oppo','machine learning','samsung']
+# starter = ['handphone','komputer','laptop','asus zenfone','xiaomi','macbook pro','macbook late','laptop asus','laptop acer','laptop zyrex','oppo','machine learning','samsung']
+# starter = ['lcd monitor','hp oppo','hp xiaomi','xiaomi redmi','cpu murah','aksesoris pc','ram ddr2','ram ddr3']
+# starter = ['printer','ram','hp oppo a3s','charger','flashdisk','resep masakan','buku tulis','tas','sepatu']
+starter = ['jaket','kaos','celana','buku','kabel','sandal','jam tangan pria','jam tangan wanita','topi']
 
 
 for idx,c in enumerate(starter):
