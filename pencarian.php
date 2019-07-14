@@ -55,8 +55,9 @@
 	</div>
 </div>
 <!-- ----------------------------------------------------------- -->
-<<!-- div class="bg-image" style="border-radius: 0;">
+<!-- div class="bg-image" style="border-radius: 0;">
 	<form action="pencarian.php">
+
 					  <div class="input-group form-index">
 					      <input type="text" name="req" class="form-control input-radius" placeholder="Jelajahi Produk Dari Seluruh situs internet..." aria-label="Search for...">
 					      <span class="input-group-btn">
@@ -67,6 +68,12 @@
 					    </div>
 					<span class="ml-2 text-white">Contoh : Laptop</span>
 				</form>
+
+		<span>Contoh : Laptop</span>
+		<input name="req" value="<?= $_GET['req'] ?>" type="text" class="form-control py-4" placeholder="Jelajahi Produk Dari Seluruh situs internet...">
+		<button class="btn btn-primary  mt-3" style="display:block"><i class="fa fa-shopping-bag"></i> JELAJAHI SEKARANG</button>
+	</form>
+
 	<hr>
 	<h3>Hasil Pencarian Dari : <?= $_GET['req'] ?></h3>
 </div> -->
@@ -79,7 +86,8 @@
 			
 					<?php
 						$rq = $_GET['req'];
-						$q = mysqli_query($conn,"SELECT * FROM barang WHERE judul LIKE '%$rq%' OR keyword LIKE '%$rq%' ORDER BY rand() LIMIT 103 ");
+						$q = mysqli_query($conn,"SELECT * FROM barang WHERE MATCH(judul)
+						AGAINST('$rq' IN NATURAL LANGUAGE MODE) OR keyword LIKE '%$rq%' ORDER BY rand() LIMIT 105");
 						while ($r=mysqli_fetch_array($q)):
 					?>
 
