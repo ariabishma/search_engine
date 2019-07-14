@@ -1,6 +1,6 @@
-<div class="container-fluid bg-dark pb-4 <?php echo $footer ?>">
+<div class="container-fluid bg-dark pb-4 <?php echo $footer ?>" style="background-color: #1d2035 !important;">
 
-<div class="row justify-content-center">
+<!-- <div class="row justify-content-center">
  	<div class="col-md-4">
 	 	<div class="title-foot text-white mt-2">Authors</div>
 			 <div class="text-foot text-muted">
@@ -23,7 +23,7 @@
 						  <a href="login.php"> <i class="fa fa-sign-in"></i> Sign In</a> <br>
 						  <a href="register.php"> <i class="fa fa-clipboard"></i> Register</a> <br>
 	</div>
-</div>
+</div> -->
 		<hr class="border-primary">
 		<div class="text-white mt-4 mb-2 text-center">Copyright 2019 <i class="fa fa-heart fa-spin text-danger"> </i> Search Over The Internet Technology </div>
 </div>

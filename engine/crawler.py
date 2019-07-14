@@ -36,6 +36,7 @@ from datetime import datetime
 
 
 # starter = ['handphone','komputer','laptop','asus zenfone','xiaomi','macbook pro','macbook late','laptop asus','laptop acer','laptop zyrex','oppo','machine learning','samsung','lcd monitor','hp oppo','hp xiaomi','xiaomi redmi','cpu murah','aksesoris pc','ram ddr2','ram ddr3','printer','ram','hp oppo a3s','charger','flashdisk','resep masakan','buku tulis','tas','sepatu','jaket','kaos','celana','buku','kabel','sandal','jam tangan pria','jam tangan wanita','topi','hp smartfren','hp nokia','iphone 5','iphone 5s','iphone 6','iphone 6s','iphone xs','iphone x','ipad pro']
+starter = ['asus zenbook','asus rog','samsung laptop','acer predator','acer core i3','acer core i7','asus core i3','lenovo ideapad','lenovo','lenovo core i7','amd ryzen','vga','gtx 1080','nvidia gforce','ram vgen','flashdrive kingstone','celana jeans','levis','jaket bomber','jaket kulit','jaket jeans','kacamata','make up','wardah kosmetik','shampoo','motor','mobil','sepatu roda','mesin','processor','arduino','raspberry pi']
 
 
 for idx,c in enumerate(starter):
